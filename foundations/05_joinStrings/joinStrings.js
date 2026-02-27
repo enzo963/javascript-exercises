@@ -13,6 +13,31 @@
 
 
 
+// const firstName = "Carlos";
+// const Lastname  = "Stevenson";
+// const thisYear = 1965;
+// const birthYear = 1947;
+
+
+// const greeting = `Hello my name is ${firstName} ${Lastname} and I am ${thisYear - birthYear} years old.`;
+
+// console.log(greeting);
+
+
+
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
+
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+
+console.log(greeting);
+
+
+
+
+
+
+
 // Do not change this
 module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
