@@ -6,7 +6,6 @@ Implement a function that takes 2 positive integers and returns the sum of every
 sumAll(1, 4) // returns the sum of 1 + 2 + 3 + 4 which is 10
 ```
 
-
 ## Hints
 
 - How will you ensure you're summing all integers within the correct range, no matter the order of the inputs?
